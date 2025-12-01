@@ -1,0 +1,117 @@
+<!doctype html>
+<!--
+   Basic template
+   -->
+<html lang="en">
+
+	<head>
+		<!-- Makes the page responsive and scaled to be read easily -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Links to stylesheet -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- Remember to update page title -->
+		<title>Greenpoint's Toxic Chemicals</title>
+	</head>
+
+	<body>
+		<!-- All content goes here -->
+		
+		<!-- Main title section - wrapped in container for consistent width/padding -->
+		<div class="container">
+			<h1>
+				Greenpoint’s Hidden Toxic Threat: 
+				<br> What Residents Should Know </br>
+			</h1>
+			<h2 style="font-size: 1.3em; font-weight: semi-bold">Greenpoint residents may live on contaminated ground but landlords aren’t required to tell them. 
+			Now, the community <br>fights for a Right-to-Know Law.</br></h2>
+			<h3 class="byline"> By Ambra Schuster</h3>
+			<h4> Published Oct. 28, 2025</h4>
+		</div>
+		
+		
+		<!-- Hero image section - NOT in container so it can be full width on mobile, constrained on desktop -->
+		<figure class="top-photo">
+			<!-- Main feature image with descriptive class -->
+			<img class="main_img" src="images/plume.jpg" alt="Street in Greenpoint, North Brooklyn">
+			<!-- Image caption with credit information -->
+			<figcaption class="head-photo">Walking around Greenpoint, you won’t see or smell anything unusual. The potential threat <br>posed by chemical pollution lurking beneath the streets is invisible.<span class="credit"> Credit: Ambra Schuster</span></figcaption>
+		</figure>
+		
+		<!-- Introductory text section - back in container for consistent width -->
+		<div class="container">
+			<!-- Lead paragraph with special styling (intro class makes it wider on large screens) -->
+			<p class="intro">The Meeker Avenue Plume, a large underground contamination site left by the neighborhood’s history of dry cleaning and metalworking industry, was first discovered in 2007 and got declared a national Superfund site in 2022. This means it is officially one of the most hazardous toxic waste sites in the U.S. and gets prioritized for cleanup under federal oversight and funding.  Since then, the U.S. Environmental Protection Agency has been in charge of investigating the full extent of the contamination and will ultimately develop a cleanup plan.
+
+			</p>
+			<!-- Regular body paragraph -->
+			<p>
+				Despite being around for so long and affecting up to 1,000 buildings, many people living and working in and around the Meeker Avenue Plume still don’t know that they are on contaminated ground. They don’t know about the invisible chemical vapors that can seep through foundation cracks and dirt floors into their homes. And they are unaware of the <a href="https://semspub.epa.gov/work/02/764692.pdf">health hazards</a> these vapors can cause. 
+			</p>
+			<p>They don’t know because many landlords in the area have looked the other way, especially because they are not required by law to inform tenants about the potential harms of living near, or directly on top of, a Superfund site. Moreover, their resistance to get their houses tested stalls remediation and the cleanup process. 
+</p>
+		</div>
+		
+		<!-- Section heading - NOT in container but gets width/centering from CSS -->
+		<!-- <h3>Immortality and Health Are Compatible </h3> -->
+		
+		<!-- Three-column layout container - uses inline-block layout (formerly flexbox) -->
+		<!-- flex box on tablet and desktop -->
+		<div class="icon-container">
+			<h2 style="margin-top: 0cm; margin-bottom: 0cm; text-decoration-line: underline; text-decoration-color: rgb(67, 188, 148);">Getting properties tested matters, yet many landlords refuse to do it</h2>
+
+			<!-- First column: Kidney care tip -->
+			<!-- each graphic is actually multiple elements grouped in a div -->
+			<div class="graphic" id="icon1">
+				<!-- Inner wrapper div (could be simplified but maintains structure) -->
+				<div class="icon">
+					<!-- Column title -->
+					<h5>Health Hazards</h5>
+					<!-- Column icon/image -->
+					<img src="images/healthhazards.png">
+					<!-- Column description text -->
+					<figcaption class="graphic-text">Long-term exposure to these chemicals, mainly TCE and PCE vapors, is known to cause <strong> cancer, reproductive health problems, and damage to the nervous and immune systems</strong> . For instance, they can impair male fertility or cause birth defects if exposure occurs during pregnancy. Inhaling the vapors can also lead to dizziness or eye irritation, such as itching and watery eyes.
+					</figcaption>
+				</div>
+			</div>
+			
+			<!-- Second column: Stomach care tip -->
+			<div class="graphic" id="icon2">
+				<div class="icon">
+					<h5>Indoor Air Testing</h5>
+					<img src="images/testing.png">
+					<figcaption class="graphic-text">To determine whether a building is affected by vapor intrusion and needs mitigation vents, the EPA must take air samples inside. So far, <strong>240 out of 1,000 buildings have been tested</strong>. While this testing is free, landlords must give permission. However, they often deny access, fearing it could hurt property values — leaving residents uninformed and anxious about their homes’ safety.
+ </figcaption>
+				</div>
+			</div>
+			
+			<!-- Third column: Lung care tip -->
+			<div class="graphic" id="icon3">
+				<div class="icon">
+					<h5>Right-to-Know Law</h5>
+					<img src="images/law.png">
+					<figcaption class="graphic-text">Community groups have been pushing for state-level legislation that would require landlords to disclose potential Superfund exposure for a long time. Now, things are starting to move. State Senator Kristen Gonzalez is reportedly discussing a <strong>bill that would compel landlords to post visible notices about nearby Superfund sites in their buildings</strong> and share testing results with residents.</figcaption>
+				</div>
+	
+			</div>
+		</div>	
+		
+<div class="container">
+  <!-- Lead paragraph with special styling -->
+  <p class="intro">
+    The next round of EPA indoor air testing will take place in December. 
+    Residents can <a href="https://docs.google.com/forms/d/e/1FAIpQLScyIpmUclsxP45BsaT4g5ZrzQuqnyn_reE-0FIVCip8c9n7TA/viewform">sign up</a> or attend one of the <a href="https://linktr.ee/meekeraveplumecag">Meeker Community Advisory Group</a> meetings, 
+    which take place on the second Wednesday of each month between 6 and 8 p.m. at 2 Kingsland Ave.
+  </p>
+
+  <ul style="text-align: left; margin: 0; padding-left: 0; font-size: 0.8em">
+    <strong>Sources</strong>
+    <li>Members of the Meeker Community Advisory Group: Julia Pienkowaska, Heidi Vanderlee, Natalie Vichnevsky</li>
+    <li>EPA Remedial Project Manager: John Brennan</li>
+    <li><a href="https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0203407">Meeker Avenue Plume Superfund Site</a></li>
+    <li>Icon Credit: The Noun Project</li>
+  </ul>
+</div>
+
+	</body>
+
+</html>
